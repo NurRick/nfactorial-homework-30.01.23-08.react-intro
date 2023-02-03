@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Kanit:wght@500;700&display=swap');
+
+.Post {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin: auto;
+    width: 85%;
+}
+
+.PostAutor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.PostIMG {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.AutorName {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.AutorName h5{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.PostTitle h1 {
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.PostSummary p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.PostLastLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.PostButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.PostLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+.PostButt button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 107px;
+    height: 30px;
+    padding: 0;
+    background-color: lightgray;
+    color: #081E34;
+    border-radius: 100px;
+    border: 0;
+}
+
+.PostButt p {  
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
